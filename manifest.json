@@ -1,0 +1,8 @@
+{
+  "domain": "p2pcam",
+  "name": "p2pcam",
+  "documentation": "https://www.home-assistant.io/components/p2pcam",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": []
+}
