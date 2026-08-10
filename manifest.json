@@ -1,8 +1,18 @@
 {
-  "domain": "p2pcam",
-  "name": "p2pcam",
-  "documentation": "https://www.home-assistant.io/components/p2pcam",
-  "requirements": ["p2pcam==0.0.2"],
-  "dependencies": [],
-  "codeowners": []
+    "domain": "p2pcam",
+    "name": "P2PCam",
+    "integration_type": "device",
+    "documentation": "https://github.com/indykoning/home-assistant-p2pcam",
+    "issue_tracker": "https://github.com/indykoning/home-assistant-p2pcam/issues",
+    "requirements": [
+"p2pcam==1.0.0",
+        "Pillow>=10.0.0"
+    ],
+    "dependencies": [],
+    "codeowners": [
+        "@indykoning",
+        "@devmlb"
+    ],
+    "version": "2.0.0",
+    "config_flow": true
 }

@@ -1,0 +1,54 @@
+{
+    "title": "P2PCam",
+    "config": {
+        "flow_title": "P2PCam configuration",
+        "step": {
+            "user": {
+                "title": "Add a P2PCam device",
+                "data": {
+                    "mode": "Setup method"
+                }
+            },
+            "discovery": {
+                "title": "Select a camera",
+                "data": {
+                    "device": "Discovered devices"
+                }
+            },
+            "manual": {
+                "title": "Manual configuration",
+                "data": {
+                    "name": "Camera name",
+                    "camera_ip": "Camera IP"
+                },
+                "data_description": {
+                    "camera_ip": "The IP address of the camera on the local network"
+                }
+            }
+        },
+        "error": {
+            "already_configured": "A camera with this IP address is already configured"
+        }
+    },
+    "options": {
+        "flow_title": "P2PCam configuration",
+        "step": {
+            "init": {
+                "data": {
+                    "camera_ip": "Camera IP"
+                },
+                "data_description": {
+                    "camera_ip": "The IP address of the camera on the local network"
+                }
+            }
+        }
+    },
+    "selector": {
+        "p2pcam_mode": {
+            "options": {
+                "lan": "Search on LAN",
+                "manual": "Manual config"
+            }
+        }
+    }
+}
